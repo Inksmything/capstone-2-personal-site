@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Oregano", cursive;
+    font-weight: normal;
+    color: #BFCDE0;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: "Oregano", cursive;
+    font-weight: normal;
+    color: #000505;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: #3B3355;
+    font-size: 1.5rem; 
+}
+
+p {
+  font-family: "Montserrat", sans-serif;  
+  color: #3B3355;
+}
+
+img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+#heading {
+    background-color: #3B3355;
+
+}
+
+#intro {
+    background-color: #FEFCFD ;
+}
+
+#hobbies {
+    background-color: #BFCDE0;
+}
+
+#contact {
+    background-color: #FEFCFD ;
+}
+
+#footer {
+    background-color: #3B3355;   
+}
+
+
+#heading div {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+
+#heading div p {
+    margin-top: 0;
+    color: #5D5D81;
+    font-size: 3rem;
+}
+
+#heading div h1 {
+    margin-bottom: 0;
+}
+
+#intro div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#intro div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+}
+
+#intro div div p {
+    font-size: 1.5rem;
+    flex-basis: 2rem;
+    width: 50%;
+}
+
+#intro div div h2 {
+    flex-basis: 2rem;
+    letter-spacing: 2px;
+}
+
+#hobbies>div {
+    background-color: #BFCDE0;
+    text-align: center;
+    height: fit-content;
+    padding: 2% 5%;
+}
+
+#hobbies>div>h2 {
+    color: #3B3355;
+}
+
+#hobbies>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 65%;
+}
+
+.hobbies img {
+    height: 100px;
+    padding: 20px;
+}
+.text {
+    width: 55%;
+}
+
+.hobbies-1, .hobbies-3 {
+    text-align: left;
+}
+
+.hobbies-2 {
+    text-align: right;
+}
+
+#contact>div {
+    text-align: center;
+    color: #3B3355;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+#contact>div>h2 {
+    margin: 0;
+    color: #5D5D81;
+    letter-spacing: 3px;
+}
+
+#contact>div>p {
+    font-size: 1.5rem;
+    margin: 0 0 3% 0;
+}
+
+#contact>div>button {
+   background-color: #3B3355;
+   color: #FEFCFD;
+   border: none;
+   border-radius: 20px;
+   height: 20%;
+   font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 1rem; 
+    padding: 1% 3%;
+}
+
+#footer>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh;
+}
+
+#footer>div>div {
+    display: inline-block;
+    width: 50%;
+}
+
+#footer>div>div>a {
+    color: #5D5D81;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0 2%;
+    
+}
+
+#footer>div>p {
+    color: #5D5D81;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;    
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-family: "Oregano", cursive;
+        font-weight: normal;
+        color: #BFCDE0;
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-family: "Oregano", cursive;
+        font-weight: normal;
+        color: #000505;
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    
+    h3 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        color: #3B3355;
+        font-size: 1.5rem; 
+    }
+    
+    p {
+      font-family: "Montserrat", sans-serif;  
+      color: #3B3355;
+    }
+    
+    img {
+        height: 250px;
+        border-radius: 50%;
+    }
+    
+    #heading {
+        background-color: #3B3355;
+    
+    }
+    
+    #intro {
+        background-color: #FEFCFD ;
+    }
+    
+    #hobbies {
+        background-color: #BFCDE0;
+    }
+    
+    #contact {
+        background-color: #FEFCFD ;
+    }
+    
+    #footer {
+        background-color: #3B3355;   
+    }
+    
+    
+    #heading div {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 100vh;
+    }
+    
+    #heading div p {
+        margin-top: 0;
+        color: #5D5D81;
+        font-size: 10vw;
+    }
+    
+    #heading div h1 {
+        margin-bottom: 0;
+        font-size: 15vw;
+    }
+    
+    #intro div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    #intro div div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 95%;
+        height: fit-content;
+    }
+    
+    #intro div div p {
+        text-align: center;
+        font-size: 1.3rem;
+        flex-basis: 2rem;
+        width: 100%;
+    }
+    
+    #intro div div h2 {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+    
+    #hobbies>div {
+        background-color: #BFCDE0;
+        text-align: center;
+        height: fit-content;
+        padding: 2% 5% 10% 5%;
+    }
+    
+    #hobbies>div>h2 {
+        color: #3B3355;
+    }
+    
+    #hobbies>div>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        width: 95%;
+    }
+    
+    .hobbies img {
+        height: 100px;
+        padding: 20px;
+    }
+    .text {
+        width: 55%;
+    }
+    
+    .hobbies-1, .hobbies-3 {
+        text-align: center;
+    }
+    
+    .hobbies-2 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    #contact>div {
+        text-align: center;
+        color: #3B3355;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+        height: 100vh;
+    }
+    
+    #contact>div>h2 {
+        margin: 0;
+        color: #5D5D81;
+        letter-spacing: 3px;
+    }
+    
+    #contact>div>p {
+        font-size: 1.5rem;
+        margin: 0 0 3% 0;
+    }
+    
+    #contact>div>button {
+       background-color: #3B3355;
+       color: #FEFCFD;
+       border: none;
+       border-radius: 20px;
+       height: fit-content;
+       font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 1rem; 
+        padding: 1% 3%;
+    }
+    
+    #footer>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5vh;
+    }
+    
+    #footer>div>div {
+        display: inline-block;
+        width: 50%;
+    }
+    
+    #footer>div>div>a {
+        color: #5D5D81;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        text-decoration: none;
+        padding: 0 2%;
+        
+    }
+    
+    #footer>div>p {
+        color: #5D5D81;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;    
+    }
+}
