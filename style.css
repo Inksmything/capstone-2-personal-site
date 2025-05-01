@@ -78,7 +78,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
+    margin: 6% 0;
 }
 
 #intro div div {
@@ -268,24 +269,15 @@ img {
      text-align: center;
      height: 100vh;
     }
+
     
-    #heading div p {
-        margin-top: 0;
-        color: #5D5D81;
-        font-size: 10vw;
-    }
-    
-    #heading div h1 {
-        margin-bottom: 0;
-        font-size: 15vw;
-    }
     
     #intro div {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: fit-content;
     }
     
     #intro div div {
@@ -417,4 +409,24 @@ img {
         font-family: "Montserrat", sans-serif;
         font-weight: normal;    
     }
+}
+
+@media (max-width: 650px) {
+    #heading div h1 {
+        margin-bottom: 0;
+        font-size: 12vw;
+        flex-grow: 0%;
+        flex-shrink: 1;
+    }
+
+    #heading div p {
+        margin-top: 0;
+        color: #5D5D81;
+        font-size: 7vw;
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+
+
+
 }
